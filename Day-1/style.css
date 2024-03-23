@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 15%;
+    height: 60%;
+    border-radius: 0%;
+    border: 1px  solid #f5f5f5b3;
+    background: radial-gradient(50% 50% at 50% 50%, #f9ba1a 0%, #F59E0B 100%)
+    
+
+}
+ .image
+{
+    flex-basis: 60%;
+    display: flex;  
+    justify-content:left;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%); 
+     align-items: center;
+}
+.image img
+{
+    width: 85%;
+    display: flex;  
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.form 
+{
+    flex-basis: 56%;
+    position: relative;
+    flex-direction: column;
+    text-align:center;
+    padding: 3%;
+    margin-left:-10%;
+    width: 50%;  
+    background-color: rgba(241, 245, 249, 0.992);
+   
+}
+
+.form h1
+{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-family:"Montserrat" ;
+    margin-bottom: -4%;
+  
+}
+.form h3
+{
+    font-family: "Arial";
+    font-weight: 100;
+    font-size: 90%;
+    text-align:left;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    margin-bottom: -4%;
+    color: #272626;
+}
+.form p
+{
+    margin-bottom:10% ;
+    font-size:  15px;
+   font-family:"Arial";
+   font-weight: 200;
+}
+.form .box
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 3%;
+    margin: 5% 20% ;
+    border: 1px solid  rgb(189, 189, 189) ;
+    outline: none;
+    width: 55%;
+    border-radius: 10px;
+    
+}
+.form button
+{
+    width: 60%;
+    margin: 5% 20% ;
+    padding: 3%;
+    border: 1px solid  rgb(206, 199, 0) ;
+    outline: none;
+    border-radius: 10px;
+    background: radial-gradient(50% 50% at 50% 50%, #e9ab0e 80%, #F59E0B 100%);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+.form a
+{
+    color: rgb(73, 124, 226);
+    text-decoration: none;
+    
+}
+.form .forgot-password
+{
+    font-family:"Arial" ;
+    font-size: 13px;
+    margin-bottom: -4%;
+    text-align: right;
+    margin-top:50%;
+    margin-left: -4%;
+  
+}
+.form h1,.form p,.form .box,.form button,.form a,.form .forgot-password
+{
+    margin-top: 5%;
+    margin-right:  10%;
+}
+#registerNow {
+    margin-left: 22%;
+}
+
